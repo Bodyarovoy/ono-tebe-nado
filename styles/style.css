@@ -66,7 +66,9 @@
   text-transform: uppercase;
 }
 
+
 .aligned-text {
+  display: block;
   letter-spacing: 4px;
   line-height: 115%;
 }
@@ -78,9 +80,9 @@
 
 .aligned-text_right {
   text-align: right;
-  letter-spacing: 26px;
-  word-spacing: -46px; 
   line-height: 100%;
+  letter-spacing: 26px;
+  word-spacing: -46px;
 }
 
 .letter-spacing-extended {
@@ -91,7 +93,7 @@
   letter-spacing: normal;
 }
 
-.cover__description{
+.cover__description {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -116,7 +118,7 @@
   border: 1px solid #fff;
 }
 
-.lots{
+.lots {
   width: 1052px;
   margin: 0 auto;
 }
@@ -193,6 +195,7 @@
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
+  text-decoration: 5px;
 }
 
 .about {
@@ -203,7 +206,7 @@
   grid-template-columns: 334px 1fr;
 }
 
-.about__column{
+.about__column {
   justify-self: center;
   padding-left: 6px;
 }
@@ -259,7 +262,7 @@
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   grid-column: 5 / 5;
   display: flex;
   
