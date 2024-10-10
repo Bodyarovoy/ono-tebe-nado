@@ -27,7 +27,7 @@
   max-height: 105px;
 }
 
-.address{
+.address {
   line-height: 25px;
   max-width: 240px;
   font-style: normal;
@@ -256,8 +256,8 @@
 }
 
 .footer__social-list {
+  display: flex;
   grid-column: 5 / 5;
-  display: flex; 
   gap: 48px;
   list-style: none;
 }
